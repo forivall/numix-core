@@ -186,7 +186,8 @@
                 "xpdf",
                 "xpdf9"
             ]
-        }
+        },
+        "osx": ["Skim"]
     },
     "accessories-image-viewer": {
         "android": [
@@ -319,7 +320,8 @@
                 "AdobeReader9",
                 "com.adobe.Reader"
             ]
-        }
+        },
+        "osx": ["Adobe Acrobat Reader"]
     },
     "actionaz": {
         "linux": {
@@ -7001,7 +7003,8 @@
     "gda-browser": {
         "linux": {
             "root": "gda-browser-5.0"
-        }
+        },
+        "osx": ["Azure Data Studio"]
     },
     "gda-control-center": {
         "linux": {
@@ -7233,7 +7236,8 @@
     "git-it": {
         "linux": {
             "root": "git-it"
-        }
+        },
+        "osx": ["GitUp"]
     },
     "gitahead": {
         "linux": {
@@ -7253,7 +7257,8 @@
                 "gitk",
                 "org.gnome.gitg"
             ]
-        }
+        },
+        "osx": ["GitX"]
     },
     "github": {
         "linux": {
@@ -10892,7 +10897,8 @@
                 "org.kde.kwordquiz",
                 "wordflow"
             ]
-        }
+        },
+        "osx": ["CheatSheet"]
     },
     "kwplayer": {
         "linux": {
@@ -14040,7 +14046,8 @@
                 "pgadmin3",
                 "pgAdmin4"
             ]
-        }
+        },
+        "osx": ["pgAdmin 4"]
     },
     "pglgui": {
         "linux": {
@@ -14164,7 +14171,8 @@
     "pick-colour-picker": {
         "linux": {
             "root": "pick-colour-picker"
-        }
+        },
+        "osx": ["Digital Color Meter"]
     },
     "picmi": {
         "linux": {
@@ -17360,7 +17368,8 @@
                 "spotifywebplayer",
                 "web-spotify"
             ]
-        }
+        },
+        "osx": ["Spotify"]
     },
     "spring": {
         "linux": {
@@ -21238,7 +21247,8 @@
     "zenmap": {
         "linux": {
             "root": "zenmap"
-        }
+        },
+        "osx": ["Zenmap"]
     },
     "zeroinstall": {
         "linux": {
