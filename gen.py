@@ -184,8 +184,7 @@ elif platform == "osx":
     for icon_name, icon in icons.items():
         if args.icons and not icon_name in args.icons:
             continue
-        # for output_icon in icon.get("osx", []):
-        for output_icon in [icon_name]:
+        for output_icon in icon.get("osx", []):
             source = "icons/{0}/48/{1}.svg".format(theme, icon_name)
             output_svg = "{0}/vectors/{1}.svg".format(osx_dir, output_icon)
             output_png = "{0}/pngs/{1}.png".format(osx_dir, output_icon)
