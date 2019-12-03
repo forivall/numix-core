@@ -40,7 +40,7 @@ except FileNotFoundError:
     exit("Please clone the whole repository and try again.")
 
 try:
-    theme, themes = "", listdir("icons")
+    theme, themes = "", [th for th in listdir("icons") if th != ".DS_Store"]
     parser.add_argument("--theme", "-t",
                         help="Theme you want to build.", choices=themes)
 except FileNotFoundError:

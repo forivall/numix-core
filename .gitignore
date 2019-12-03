@@ -5,6 +5,7 @@
 .vscode/
 __pycache__/*
 *.pyc
+.DS_Store
 
 # Output Directories
 numix-circle.icns/
