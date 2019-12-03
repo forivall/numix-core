@@ -6147,7 +6147,8 @@
     "finder": {
         "linux": {
             "root": "Finder_w"
-        }
+        },
+        "osx": ["Finder"]
     },
     "fingerprint-gui": {
         "linux": {
@@ -6173,7 +6174,8 @@
                 "mozilla-firefox",
                 "org.mozilla.Firefox"
             ]
-        }
+        },
+        "osx": ["Firefox"]
     },
     "firefox-aurora": {
         "linux": {
@@ -7178,7 +7180,8 @@
             "symlinks": [
                 "io.github.wereturtle.ghostwriter"
             ]
-        }
+        },
+        "osx": ["Gapplin"]
     },
     "giada": {
         "linux": {
@@ -8142,7 +8145,8 @@
                 "google-chrome2",
                 "googlechrome"
             ]
-        }
+        },
+        "osx": ["Google Chrome"]
     },
     "google-chrome-beta": {
         "android": [
@@ -16941,7 +16945,8 @@
                 "chrome-jeogkiiogjbmhklcnbgkdcjoioegiknm-Default",
                 "com.slack.Slack"
             ]
-        }
+        },
+        "osx": ["Slack"]
     },
     "slgui": {
         "linux": {
@@ -17609,7 +17614,8 @@
                 "sublime_merge",
                 "sublimemerge"
             ]
-        }
+        },
+        "osx": ["Sublime Merge"]
     },
     "sublime-text-2": {
         "linux": {
@@ -17628,7 +17634,8 @@
                 "sublime_text",
                 "sublimetext"
             ]
-        }
+        },
+        "osx": ["Sublime Text"]
     },
     "subsurface-icon": {
         "linux": {
@@ -18892,7 +18899,8 @@
     "typora": {
         "linux": {
             "root": "typora"
-        }
+        },
+        "osx": ["Typora"]
     },
     "uberwriter": {
         "linux": {
@@ -19449,7 +19457,8 @@
                 "vscodium",
                 "vso"
             ]
-        }
+        },
+        "osx": ["Visual Studio Code"]
     },
     "visualvm": {
         "linux": {
