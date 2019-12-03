@@ -14490,6 +14490,9 @@
             "root": "portecle"
         }
     },
+    "postico": {
+        "osx": ["Postico"]
+    },
     "postman": {
         "linux": {
             "root": "postman",

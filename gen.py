@@ -51,6 +51,13 @@ parser.add_argument("--platform", "-p",
                     help="Platform you like to build the theme for.",
                     choices=platforms)
 
+parser.add_argument("--icons",
+                    nargs="+",
+                    help="Build a single icon file",
+                    metavar="ICON"
+                    # choices=icons.keys()
+                    )
+
 args = parser.parse_args()
 
 # User selects the theme
@@ -175,7 +182,10 @@ elif platform == "osx":
     for sub_dir in osx_sub_dirs:
         mkdir("{0}/{1}".format(osx_dir, sub_dir))
     for icon_name, icon in icons.items():
-        for output_icon in icon.get("osx", []):
+        if args.icons and not icon_name in args.icons:
+            continue
+        # for output_icon in icon.get("osx", []):
+        for output_icon in [icon_name]:
             source = "icons/{0}/48/{1}.svg".format(theme, icon_name)
             output_svg = "{0}/vectors/{1}.svg".format(osx_dir, output_icon)
             output_png = "{0}/pngs/{1}.png".format(osx_dir, output_icon)
@@ -185,5 +195,7 @@ elif platform == "osx":
                 convert_svg2png(source, output_png, 1024, 1024)
                 call(["png2icns", output_icn, output_png],
                      stdout=PIPE, stderr=PIPE)
+            else:
+                print("Warning: Missing {}", icon_name)
 # Clean Up
 print("Done!\n")
